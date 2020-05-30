@@ -1,0 +1,43 @@
+﻿  address.c
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(38): warning C4090: '=': qualificatori 'const' differenti
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(38): error C2106: '=': l'operando sinistro deve essere un I-value
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(39): warning C4090: '=': qualificatori 'const' differenti
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(39): error C2106: '=': l'operando sinistro deve essere un I-value
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(41): warning C4090: '=': qualificatori 'const' differenti
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(41): error C2106: '=': l'operando sinistro deve essere un I-value
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(42): warning C4090: '=': qualificatori 'const' differenti
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(42): error C2106: '=': l'operando sinistro deve essere un I-value
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(43): warning C4090: '=': qualificatori 'const' differenti
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(43): error C2106: '=': l'operando sinistro deve essere un I-value
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(49): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1197): note: vedere la dichiarazione di 'fscanf'
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(52): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: vedere la dichiarazione di 'scanf'
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(55): warning C4477: 'fprintf': con la stringa di formato '%d' è necessario un argomento di tipo 'int', ma il tipo dell'argomento variadic 3 è 'const int *'
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(57): warning C4477: 'printf': con la stringa di formato '%d' è necessario un argomento di tipo 'int', ma il tipo dell'argomento variadic 3 è 'const int *'
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(132): warning C4090: '=': qualificatori 'const' differenti
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(137): warning C4090: '=': qualificatori 'const' differenti
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(151): error C2143: errore di sintassi: ';' mancante prima di '{'
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(152): warning C4090: '=': qualificatori 'const' differenti
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(152): error C2065: 'city': identificatore non dichiarato
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(152): warning C4047: '==': 'char [30]' differisce da 'int' nei livelli di riferimento indiretto
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(161): error C2143: errore di sintassi: ';' mancante prima di '{'
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(162): error C2065: 'l': identificatore non dichiarato
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(162): error C2223: l'elemento a sinistra di '->next' deve puntare a struct/union
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(162): warning C4047: 'funzione': 'const Item *' differisce da 'int' nei livelli di riferimento indiretto
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(162): warning C4024: 'GetHeadValueList': tipi diversi tra il parametro 1 formale e quello effettivo
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(162): warning C4090: '=': qualificatori 'const' differenti
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(162): warning C4133: 'funzione': tipi non compatibili. Da 'ElemType *' a 'Item *'
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(162): warning C4133: 'funzione': tipi non compatibili. Da 'Item *' a 'const ElemType *'
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(162): warning C4024: 'GetTailList': tipi diversi tra il parametro 1 formale e quello effettivo
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(162): warning C4047: '=': 'int' differisce da 'Item *' nei livelli di riferimento indiretto
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(169): error C2143: errore di sintassi: ';' mancante prima di '{'
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(169): error C2065: 'l1': identificatore non dichiarato
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(169): error C2223: l'elemento a sinistra di '->next' deve puntare a struct/union
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(169): warning C4047: 'funzione': 'const Item *' differisce da 'int' nei livelli di riferimento indiretto
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(169): warning C4024: 'GetHeadValueList': tipi diversi tra il parametro 1 formale e quello effettivo
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(169): warning C4090: '=': qualificatori 'const' differenti
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(169): warning C4024: 'GetTailList': tipi diversi tra il parametro 1 formale e quello effettivo
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(169): warning C4047: '=': 'int' differisce da 'Item *' nei livelli di riferimento indiretto
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(169): error C2065: 'l2': identificatore non dichiarato
+d:\users\giacomo\documents\_università\fondamenti2\8.1\address.c(144): fatal error C1075: '{': non sono stati trovati token corrispondenti
