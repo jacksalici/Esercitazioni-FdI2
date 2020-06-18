@@ -54,7 +54,11 @@ int ReadStdinElem(ElemType *e) {
 void WriteElem(const ElemType *e, FILE *f) {
 	fprintf(f, "%s %s %d %s %s %s", e->name, e->street, &e->number, e->city, e->province, e->postal_code);
 }
-void WriteStdoutElem(const ElemType *e) {	printf("%s %s %d %s %s %s", e->name, e->street, &e->number, e->city, e->province, e->postal_code);}
+void WriteStdoutElem(const ElemType *e) {
+	printf("%s %s %d %s %s %s", e->name, e->street, &e->number, e->city, e->province, e->postal_code);
+}
+
+
 /*****************************************************************************/
 /*                          Item & Primitives                                */
 /*****************************************************************************/
@@ -126,22 +130,46 @@ void DeleteList(Item* i)
 		free(tmp);
 	}
 }
-/*****************************************************************************/
+
+/*****************************************************************************/
 /*                                 Ex 1	                                     */
 /*****************************************************************************/
-const ElemType* Find(const Item* i, const char *name) {	ElemType *t;	while (1) {		t = GetHeadValueList(i);		if (t->name == name)			return t;		i = GetTailList(i);	}	return NULL;}/*****************************************************************************/
+
+const ElemType* Find(const Item* i, const char *name) {
+	ElemType *t;
+	while (1) {
+		t = GetHeadValueList(i);
+		if (t->name == name)
+			return t;
+		i = GetTailList(i);
+	}
+	return NULL;
+}
+
+
+/*****************************************************************************/
 /*                                 Ex 2	                                     */
 /*****************************************************************************/
 
 Item* Delete(Item* i, const char *name) {
-	ElemType *t;	Item *new = CreateEmptyList();	while (i->next!=NULL) {		t = GetHeadValueList(i);		if (t->name != name)			new = InsertHeadList(t, new);		i = GetTailList(i);	}	return new;
+	ElemType *t = GetHeadValueList(;
+	Item *tmp = i;
+	while (!IsEmptyList(tmp) {
+		if (GetHeadValueList(tmp)->name == name)
+			new = InsertHeadList(t, new);
+		tmp = GetTailList(tmp);
+	}
+
 }
 
 /*****************************************************************************/
 /*                                 Ex 3	                                     */
 /*****************************************************************************/
 
-Item* Sort(Item* i) {	//working in progress}
+Item* Sort(Item* i) {
+	//working in progress
+}
+
 
 
 /*****************************************************************************/
@@ -149,7 +177,15 @@ Item* Sort(Item* i) {	//working in progress}
 /*****************************************************************************/
 
 Item* Filtra(Item* i, const char *city) {
-	ElemType *t;	Item *new = CreateEmptyList();	while (i->next != NULL) {		t = GetHeadValueList(i);		if (t->city == city)			new = InsertHeadList(t, new);		i = GetTailList(i);	}	return new;
+	ElemType *t;
+	Item *new = CreateEmptyList();
+	while (i->next != NULL) {
+		t = GetHeadValueList(i);
+		if (t->city == city)
+			new = InsertHeadList(t, new);
+		i =	 GetTailList(i);
+	}
+	return new;
 }
 
 
@@ -159,11 +195,33 @@ Item* Filtra(Item* i, const char *city) {
 /*****************************************************************************/
 
 Item* Reverse(const Item* l) {
-	ElemType *t;	Item *new = CreateEmptyList();	while (l->next != NULL) {		t = GetHeadValueList(l);		new = InsertBackList(t, new);		l = GetTailList(l);	}	return new;
+	ElemType *t;
+	Item *new = CreateEmptyList();
+	while (l->next != NULL) {
+		t = GetHeadValueList(l);
+		new = InsertBackList(t, new);
+		l = GetTailList(l);
+	}
+	return new;
 }
 
 /*****************************************************************************/
 /*                                 Ex 7	                                     */
 /*****************************************************************************/
 
-Item* Append(const Item* l1, const Item* l2) {	ElemType *t;	Item *new = CreateEmptyList();	while (l1->next != NULL) {		t = GetHeadValueList(l1);		new = InsertHeadList(t, new);		l1 = GetTailList(l1);	}	while (l1->next != NULL) {		t = GetHeadValueList(l2);		new = InsertHeadList(t, new);		l2 = GetTailList(l2);	}	return new;}
+Item* Append(const Item* l1, const Item* l2) {
+	ElemType *t;
+	Item *new = CreateEmptyList();
+	while (l1->next != NULL) {
+		t = GetHeadValueList(l1);
+		new = InsertHeadList(t, new);
+		l1 = GetTailList(l1);
+	}
+	while (l1->next != NULL) {
+		t = GetHeadValueList(l2);
+		new = InsertHeadList(t, new);
+		l2 = GetTailList(l2);
+	}
+	return new;
+}
+

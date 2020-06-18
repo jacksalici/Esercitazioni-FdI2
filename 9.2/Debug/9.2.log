@@ -1,0 +1,5 @@
+﻿  dominant.c
+  tree_int.c
+  Generazione del codice in corso...
+MSVCRTD.lib(exe_main.obj) : error LNK2019: riferimento al simbolo esterno _main non risolto nella funzione "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\Users\Giacomo\Documents\_Università\Fondamenti2\9.2\Debug\9.2.exe : fatal error LNK1120: 1 esterni non risolti

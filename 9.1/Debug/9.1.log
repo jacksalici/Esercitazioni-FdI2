@@ -1,0 +1,7 @@
+﻿  insert.c
+d:\users\giacomo\documents\_università\fondamenti2\9.1\insert.c(4): warning C4047: '>': 'const ElemType' differisce da 'const ElemType *' nei livelli di riferimento indiretto
+  tree_int.c
+  Generazione del codice in corso...
+d:\users\giacomo\documents\_università\fondamenti2\9.1\insert.c(34): warning C4715: 'BstInsert': non tutti i percorsi di controllo restituiscono un valore
+MSVCRTD.lib(exe_main.obj) : error LNK2019: riferimento al simbolo esterno _main non risolto nella funzione "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\Users\Giacomo\Documents\_Università\Fondamenti2\9.1\Debug\9.1.exe : fatal error LNK1120: 1 esterni non risolti
