@@ -1,0 +1,17 @@
+﻿  counddominant.c
+minheap_int.obj : error LNK2005: _ElemCompare già definito in list_int.obj
+minheap_int.obj : error LNK2005: _ElemCopy già definito in list_int.obj
+minheap_int.obj : error LNK2005: _ElemDelete già definito in list_int.obj
+minheap_int.obj : error LNK2005: _ReadElem già definito in list_int.obj
+minheap_int.obj : error LNK2005: _ReadStdinElem già definito in list_int.obj
+minheap_int.obj : error LNK2005: _WriteElem già definito in list_int.obj
+minheap_int.obj : error LNK2005: _WriteStdoutElem già definito in list_int.obj
+treemax.obj : error LNK2005: _BstTreeMax già definito in min_max.obj
+tree_int.obj : error LNK2005: _ElemCompare già definito in list_int.obj
+tree_int.obj : error LNK2005: _ElemCopy già definito in list_int.obj
+tree_int.obj : error LNK2005: _ElemDelete già definito in list_int.obj
+tree_int.obj : error LNK2005: _ReadElem già definito in list_int.obj
+tree_int.obj : error LNK2005: _ReadStdinElem già definito in list_int.obj
+tree_int.obj : error LNK2005: _WriteElem già definito in list_int.obj
+tree_int.obj : error LNK2005: _WriteStdoutElem già definito in list_int.obj
+D:\Users\Giacomo\Documents\_Università\Fondamenti2\other\Debug\other.exe : fatal error LNK1169: rilevato uno o più simboli definiti più volte
