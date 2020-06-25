@@ -36,6 +36,12 @@
     <ClCompile Include="counddominant.c">
       <Filter>File di origine</Filter>
     </ClCompile>
+    <ClCompile Include="heapify.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="move_up.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="list_int.h">

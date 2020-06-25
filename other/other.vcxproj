@@ -144,10 +144,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="counddominant.c" />
+    <ClCompile Include="heapify.c" />
     <ClCompile Include="insert.c" />
     <ClCompile Include="list_int.c" />
     <ClCompile Include="minheap_int.c" />
     <ClCompile Include="min_max.c" />
+    <ClCompile Include="move_up.c" />
     <ClCompile Include="treemax.c" />
     <ClCompile Include="tree_int.c" />
   </ItemGroup>

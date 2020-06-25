@@ -1,4 +1,4 @@
-﻿  counddominant.c
+﻿  move_up.c
 minheap_int.obj : error LNK2005: _ElemCompare già definito in list_int.obj
 minheap_int.obj : error LNK2005: _ElemCopy già definito in list_int.obj
 minheap_int.obj : error LNK2005: _ElemDelete già definito in list_int.obj
