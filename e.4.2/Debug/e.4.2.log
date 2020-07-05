@@ -1,0 +1,4 @@
+﻿  isheap.c
+d:\users\giacomo\documents\_università\fondamenti2\e.4.2\isheap.c(20): warning C4047: '=': 'ElemType *' differisce da 'int **' nei livelli di riferimento indiretto
+d:\users\giacomo\documents\_università\fondamenti2\e.4.2\isheap.c(19): warning C4047: 'inizializzazione': 'int *' differisce da 'int' nei livelli di riferimento indiretto
+  e.4.2.vcxproj -> D:\Users\Giacomo\Documents\_Università\Fondamenti2\e.4.2\Debug\e.4.2.exe
